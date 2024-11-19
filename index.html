@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            height: 100vh;
+            background: url(bg_header.jpg);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+        }
+
+        .banner {
+            color: white;
+            padding: 80px;
+            text-align: center;
+        }
+
+        .banner h1 {
+            font-size: 80px;
+        }
+
+        .banner span {
+            color: red;
+        }
+
+        button {
+            width: 200px;
+            height: 50px;
+            background-color: red;
+            color: white;
+            font-weight: bold;
+        }
+        .navbar {
+            margin-top: 50px;
+            width: 80%;
+            background-color: red;
+            padding: 10px;
+            display: flex;
+            height: 20%;
+            
+        }
+        .logo {
+            width: 30%;
+            height: 100%;
+            place-content: center;
+        }
+        .menu {
+            width: 70%;
+        }
+        .menu {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 20px;
+        }
+        .menu ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            
+        
+        }
+       .menu ul li a{
+            text-decoration: none;
+            font-size: 30px;
+            margin: 10px;
+            color: white
+            
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="logo" width="50%">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Blog/News</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner">
+            <h1>Think Big. <span>We do.</span></h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi dele</p>
+            <button>OUR PORTFOLIO</button>
+        </div>
+    </div>
+</body>
+
+</html>
